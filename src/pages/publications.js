@@ -3,7 +3,7 @@ import { graphql } from 'gatsby';
 import Layout from '../layout';
 import Seo from '../components/seo';
 import Bio from '../components/bio';
-// import TimeStampSection from '../components/timestamp-section';
+import TimeStampSection from '../components/timestamp-section';
 import ProjectSection from '../components/project-section';
 
 function PublicationPage({ data }) {
