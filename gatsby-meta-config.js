@@ -6,15 +6,15 @@ module.exports = {
   ogImage: `/og-image.png`, // Path to your in the 'static' folder
   comments: {
     utterances: {
-      repo: `zoomkoding/zoomkoding-gatsby-blog`, // `zoomkoding/zoomkoding-gatsby-blog`,
+      repo: `sjchae1207/sjchae1207.github.io`, // `zoomkoding/zoomkoding-gatsby-blog`,
     },
   },
   ga: 'G-X870KR7DCD', // Google Analytics Tracking ID
   author: {
     name: `Seokjoo Chae`,
     bio: {
-      role: `Mathematician`,
-      description: ['Curious', 'Actively working', 'Cooperative'],
+      role: `Mathematician with`,
+      description: ['Curiousity', 'Activeness', 'Cooperativity'],
       thumbnail: 'zoomkoding.gif', // Path to the image in the 'asset' folder
     },
     social: {
@@ -48,12 +48,12 @@ module.exports = {
       },
       {
         date: '2013.03 ~ 2017.02',
-        activity: 'B.Sc, Dept. of Mathematical Sciences, KAIST',
+        activity: 'B.Sc in Mathematical Sciences, KAIST',
       },
 
       {
         date: '2017.03~',
-        activity: 'Graduate school, Dept. of Mathematical Sciences, KAIST',
+        activity: 'Ph.D (on going) in Mathematical biology, KAIST',
         links: {
           post: '/how-to-algo',
         },
