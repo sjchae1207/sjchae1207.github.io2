@@ -13,9 +13,9 @@ module.exports = {
   author: {
     name: `Seokjoo Chae`,
     bio: {
-      role: `Mathematician with`,
-      description: ['Curiousity', 'Activeness', 'Cooperativity'],
-      thumbnail: 'zoomkoding.gif', // Path to the image in the 'asset' folder
+      role: `Mathematician`,
+      description: ['Curious', 'Actively working', 'Cooperative'],
+      thumbnail: 'sjsj.gif', // Path to the image in the 'asset' folder
     },
     social: {
       github: `https://github.com/sjchae1207`,

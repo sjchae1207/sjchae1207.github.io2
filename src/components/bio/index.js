@@ -34,7 +34,7 @@ function Bio({ author, language = 'ko' }) {
             .<br />
           </p>
           <p className="description">
-            I'm a {bio.role} <ReactRotatingText items={bio.description} />
+            I'm a <ReactRotatingText items={bio.description} /> {bio.role}
             <br />
           </p>
           <div className="social-links">
