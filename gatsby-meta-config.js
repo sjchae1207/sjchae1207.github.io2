@@ -26,8 +26,12 @@ module.exports = {
 
   // metadata for About Page
   about: {
-    intro : [
-      {description: 'asdfasdfasdfasdfsadfdfdfdf',
+    intros : [
+      {
+        description: 'asdfasdfasdf \n asdfasdfasdf',
+      },
+      {
+        description: 'asdfasdfasd22222fasdfsadfdfdfdf',
       }
     ],
     timestamps: [

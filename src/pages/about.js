@@ -10,7 +10,7 @@ import IntroSection from '../components/intro-section';
 function AboutPage({ data }) {
   const metaData = data.site.siteMetadata;
   const { author, about, language } = metaData;
-  const { timestamps, projects, intros} = about;
+  const { intros, timestamps, projects} = about;
   return (
     <Layout>
       <Seo title="About" />
