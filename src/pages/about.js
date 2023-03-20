@@ -46,6 +46,9 @@ export const pageQuery = graphql`
         }
 
         about {
+          intros{
+            description
+          }
           timestamps {
             date
             activity
