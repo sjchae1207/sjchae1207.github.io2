@@ -10,12 +10,12 @@ import IntroSection from '../components/intro-section';
 function AboutPage({ data }) {
   const metaData = data.site.siteMetadata;
   const { author, about, language } = metaData;
-  const { timestamps, projects } = about;
+  const { timestamps, projects, intros} = about;
   return (
     <Layout>
       <Seo title="About" />
       <Bio author={author} language={language} />
-      <IntroSection />
+      <IntroSection intros={intros}/>
       <TimeStampSection timestamps={timestamps} />
       <ProjectSection projects={projects} />
     </Layout>
@@ -46,7 +46,7 @@ export const pageQuery = graphql`
         }
 
         about {
-          intros{
+          intros {
             description
           }
           timestamps {
