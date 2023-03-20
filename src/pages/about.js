@@ -5,6 +5,7 @@ import Seo from '../components/seo';
 import Bio from '../components/bio';
 import TimeStampSection from '../components/timestamp-section';
 import ProjectSection from '../components/project-section';
+import IntroSection from '../components/intro-section';
 
 function AboutPage({ data }) {
   const metaData = data.site.siteMetadata;
@@ -14,6 +15,7 @@ function AboutPage({ data }) {
     <Layout>
       <Seo title="About" />
       <Bio author={author} language={language} />
+      <IntroSection />
       <TimeStampSection timestamps={timestamps} />
       <ProjectSection projects={projects} />
     </Layout>
