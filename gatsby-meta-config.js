@@ -26,6 +26,10 @@ module.exports = {
 
   // metadata for About Page
   about: {
+    intro : [
+      {description: 'asdfasdfasdfasdfsadfdfdfdf',
+      }
+    ],
     timestamps: [
       // =====       [Timestamp Sample and Structure]      =====
       // ===== 🚫 Don't erase this sample (여기 지우지 마세요!) =====
@@ -54,9 +58,9 @@ module.exports = {
       {
         date: '2017.03~',
         activity: 'Ph.D (on going) in Mathematical biology, KAIST',
-        links: {
-          post: '/how-to-algo',
-        },
+        // links: {
+        //    post: ,
+        // },
       },
  
  
