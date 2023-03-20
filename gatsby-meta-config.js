@@ -28,7 +28,7 @@ module.exports = {
   about: {
     intros : [
       {
-        description: 'asdfasdfasdf \n asdfasdfasdf',
+        description: 'introductionnnn \n asdfasdfasdf',
       },
       {
         description: 'asdfasdfasd22222fasdfsadfdfdfdf',
