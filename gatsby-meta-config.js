@@ -49,10 +49,10 @@ module.exports = {
         linkText: 'Jae Kyoung Kim',
       },
       {
-        description_before_link: 'Please find my',
-        description_after_link: 'here.',
+        description_before_link: 'Please find my CV',
+        description_after_link: '',
         link: '/CV_SJC_2023.pdf',
-        linkText: 'CV',
+        linkText: 'here.',
       },
 
       // {
