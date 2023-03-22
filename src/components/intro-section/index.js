@@ -11,7 +11,12 @@ function IntroSection({intros}) {
       {intros.map((intro, index) =>
         index === 0 ? null : (
           <div className="intro" key={index}>
-              <div className="description">{intro.description}</div>
+              <div className="description">
+                {intro.description}{' '}
+                <a href={intro.link} target="_blank" rel="noopener noreferrer">
+                  {intro.linkText}
+                </a>
+              </div>
           </div>
         ),
       )}

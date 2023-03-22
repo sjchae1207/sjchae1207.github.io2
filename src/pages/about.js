@@ -48,6 +48,8 @@ export const pageQuery = graphql`
         about {
           intros {
             description
+            link
+            linkText
           }
           timestamps {
             date

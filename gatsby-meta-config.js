@@ -27,11 +27,28 @@ module.exports = {
   // metadata for About Page
   about: {
     intros : [
+      // =====       [Timestamp Sample and Structure]      =====
+      // ===== 🚫 Don't erase this sample (여기 지우지 마세요!) =====
+      {
+        date: '',
+        activity: '',
+        links: {
+          github: '',
+          post: '',
+          googlePlay: '',
+          appStore: '',
+          demo: '',
+        },
+      },
+      // ========================================================
+      // ========================================================
       {
         description: 'I am a graduate student in the Department of Mathematical Sciences at the Korea Advanced Institute of Science and Technology.  I am interested in causality detection in biological systems, mathematical modeling of immunotherapy.',
       },
       {
-        description: 'My supervisor is Jaekyoung Kim',
+        description: 'My supervisor is Jaekyoung Kim in KAIST and IBS Biomedical Mathematics group',
+        link: 'https://mathsci.kaist.ac.kr',
+        linkText: 'here',
       },
 
       // {
