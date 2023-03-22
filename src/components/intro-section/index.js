@@ -5,7 +5,7 @@ import './style.scss';
 
 
 function IntroSection({intros}) {
-  if (!intros) return null; 
+  if (!intros || intros.length < 2) return null;
   return (
     <div className="intro-section">
       {intros.map((intro, index) =>

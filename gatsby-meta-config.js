@@ -28,8 +28,12 @@ module.exports = {
   about: {
     intros : [
       {
-        description: 'Hi',
+        description: 'I am a graduate student in the Department of Mathematical Sciences at the Korea Advanced Institute of Science and Technology.  I am interested in causality detection in biological systems, mathematical modeling of immunotherapy.',
       },
+      {
+        description: 'My supervisor is Jaekyoung Kim',
+      },
+
       // {
       //   description: 'asdfasdfasd22222fasdfsadfdfdfdf',
       // }
