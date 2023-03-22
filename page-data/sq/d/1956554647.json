@@ -1,1 +1,1 @@
-{"data":{"allMarkdownRemark":{"edges":[{"node":{"frontmatter":{"title":"Paper accepted by iScience","categories":"News Papers"},"fields":{"slug":"/iScience/"}}},{"node":{"frontmatter":{"title":"To be updated","categories":"Noticce"},"fields":{"slug":"/To-be-updated/"}}}]}}}
+{"data":{"allMarkdownRemark":{"edges":[{"node":{"frontmatter":{"title":"Paper accepted by iScience","categories":"News Papers"},"fields":{"slug":"/iScience/"}}},{"node":{"frontmatter":{"title":"To be updated","categories":"Notice"},"fields":{"slug":"/To-be-updated/"}}}]}}}

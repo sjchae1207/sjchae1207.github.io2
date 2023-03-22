@@ -1,5 +1,0 @@
-{
-    "componentChunkName": "component---src-templates-category-template-js",
-    "path": "/posts/Noticce",
-    "result": {"pageContext":{"currentCategory":"Noticce","categories":["All","News","Papers","Noticce"],"edges":[{"node":{"id":"35135737-7e79-5db2-8b5c-96be79c65b86","excerpt":"To be updated Hiiii Hi, first post after re-making my blog. To be updated Hiiii","fields":{"slug":"/To-be-updated/"},"frontmatter":{"categories":"Noticce","title":"To be updated","date":"March 19, 2023"}},"next":null,"previous":{"fields":{"slug":"/iScience/"}}}]}},
-    "staticQueryHashes": ["1073350324","1956554647","2938748437"]}
