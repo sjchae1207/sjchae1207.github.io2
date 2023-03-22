@@ -16,7 +16,7 @@ function IntroSection({intros}) {
                 <a href={intro.link} target="_blank" rel="noopener noreferrer">
                   {intro.linkText}
                 </a>
-                {intro.description_after_link}{' '}
+                {' '}{intro.description_after_link}
               </div>
           </div>
         ),
