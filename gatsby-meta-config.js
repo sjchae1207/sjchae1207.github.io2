@@ -46,7 +46,13 @@ module.exports = {
         description_before_link: 'My supervisor is', 
         description_after_link: 'in KAIST and IBS Biomedical Mathematics group.',
         link: 'https://mathsci.kaist.ac.kr',
-        linkText: 'JaeKyoung Kim',
+        linkText: 'Jae Kyoung Kim',
+      },
+      {
+        description_before_link: 'Please find my',
+        description_after_link: 'here.',
+        link: './CV_SJC_2023.pdf',
+        linkText: 'CV',
       },
 
       // {
