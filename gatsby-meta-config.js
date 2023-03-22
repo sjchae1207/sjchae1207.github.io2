@@ -51,7 +51,7 @@ module.exports = {
       {
         description_before_link: 'Please find my',
         description_after_link: 'here.',
-        link: './CV_SJC_2023.pdf',
+        link: '/CV_SJC_2023.pdf',
         linkText: 'CV',
       },
 
