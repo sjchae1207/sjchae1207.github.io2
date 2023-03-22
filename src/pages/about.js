@@ -47,7 +47,8 @@ export const pageQuery = graphql`
 
         about {
           intros {
-            description
+            description_before_text
+            description_after_text
             link
             linkText
           }
