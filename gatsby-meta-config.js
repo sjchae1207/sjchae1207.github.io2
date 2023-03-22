@@ -28,11 +28,11 @@ module.exports = {
   about: {
     intros : [
       {
-        description: 'introductionnnn \n asdfasdfasdf',
+        description: 'Hi',
       },
-      {
-        description: 'asdfasdfasd22222fasdfsadfdfdfdf',
-      }
+      // {
+      //   description: 'asdfasdfasd22222fasdfsadfdfdfdf',
+      // }
     ],
     timestamps: [
       // =====       [Timestamp Sample and Structure]      =====
