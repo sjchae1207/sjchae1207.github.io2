@@ -1,5 +1,5 @@
 module.exports = {
-  title: `Seokjoo Chae`,
+  title: `seokjoo_`,
   description: `Seokjoo's Personal blog`,
   language: `en`, // `ko`, `en` => currently support versions for Korean and English
   siteUrl: `https://sjchae1207.github.io`,
