@@ -36,8 +36,8 @@ function PageHeader({ siteTitle }) {
               <Link className="link" to="/about">
                 about
               </Link>
-              <Link className="link" to="/publications">
-                publications
+              <Link className="link" to="/research">
+                research
               </Link>
               <Link className="link" to="/posts">
                 posts

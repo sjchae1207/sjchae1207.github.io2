@@ -6,21 +6,20 @@ import Bio from '../components/bio';
 import TimeStampSection from '../components/timestamp-section';
 import ProjectSection from '../components/project-section';
 
-function PublicationPage({ data }) {
+function ResearchPage({ data }) {
   const metaData = data.site.siteMetadata;
   const { author, about, language } = metaData;
   const { timestamps, projects } = about;
   return (
     <Layout>
-      <Seo title="Publications" />
-      <Bio author={author} language={language} />
+      <Seo title="Research" /> 
       <TimeStampSection timestamps={timestamps} />
       <ProjectSection projects={projects} />
     </Layout>
   );
 }
 
-export default PublicationPage;
+export default ResearchPage;
 
 export const pageQuery = graphql`
   query {
