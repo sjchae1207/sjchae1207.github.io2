@@ -12,11 +12,11 @@ function IntroSection({intros}) {
         index === 0 ? null : (
           <div className="intro" key={index}>
               <div className="description">
-                {/* {intro.description_before_link}{' '}
+                {intro.description_before_link}{' '}
                 <a href={intro.link} target="_blank" rel="noopener noreferrer">
                   {intro.linkText}
                 </a>
-                {' '}{intro.description_after_link} */}
+                {' '}{intro.description_after_link}
               </div>
           </div>
         ),
