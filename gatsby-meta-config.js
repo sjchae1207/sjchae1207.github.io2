@@ -14,7 +14,7 @@ module.exports = {
     name: `Seokjoo Chae`,
     bio: {
       role: `Mathematician`,
-      description: ['Curious', 'Actively working', 'Cooperative'],
+      description: ['Adventurous', 'Actively working', 'Cooperative'],
       thumbnail: 'sjsj.gif', // Path to the image in the 'asset' folder
     },
     social: {
@@ -76,21 +76,25 @@ module.exports = {
       // ========================================================
       // ========================================================
       {
-        date: '2011.01~2013.02',
-        activity: 'Hansung Science high school',
-      },
-      {
-        date: '2013.03 ~ 2017.02',
-        activity: 'B.Sc in Mathematical Sciences, KAIST',
-      },
-
-      {
         date: '2017.03~',
         activity: 'Ph.D (on going) in Mathematical biology, KAIST',
         // links: {
         //    post: ,
         // },
       },
+      
+      {
+        date: '2013.03 ~ 2017.02',
+        activity: 'B.Sc in Mathematical Sciences, KAIST',
+      },
+      
+      {
+        date: '2011.01~2013.02',
+        activity: 'Hansung Science high school',
+      },
+     
+
+     
  
  
     ],
@@ -123,6 +127,28 @@ module.exports = {
           github: 'https://github.com/Mathbiomed/Collective_phospho_circadian',
 
         },
+      },
+      {
+        title: 'Optimizing Immunotherapy strategy against tumor using NK cells',
+        description: 'Collaborative study with biologists in KRIBB to understand NK killing mechanism and improve tumor killing capacity',
+        techStack: ['Data Analysis', 'MATLAB'],
+        // thumbnailUrl: '',
+        // links: {
+        //   post: 'https://www.biorxiv.org/content/10.1101/2022.10.27.513792v2',
+        //   github: 'https://github.com/Mathbiomed/Collective_phospho_circadian',
+
+        // },
+      },
+      {
+        title: 'Detecting causality ',
+        description: 'Studied how spatially coordinated collective phosphorylation filters spatiotemporal noises for precise circadian timekeeping',
+        techStack: ['MATLAB'],
+        // thumbnailUrl: '',
+        // links: {
+        //   post: 'https://www.biorxiv.org/content/10.1101/2022.10.27.513792v2',
+        //   github: 'https://github.com/Mathbiomed/Collective_phospho_circadian',
+
+        // },
       },
     ],
   },

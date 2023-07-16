@@ -4,7 +4,7 @@ import IconButtonBar from '../icon-button-bar';
 import Image from '../image';
 import './style.scss';
 
-function PublicationsPage({ publications }) {
+function PublicationsSection({ publications }) {
   if (!publications || publications.length < 2) return null;
   return (
     <div className="Publication-page">

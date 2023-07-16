@@ -5,16 +5,16 @@ import Seo from '../components/seo';
 import Bio from '../components/bio';
 import TimeStampSection from '../components/timestamp-section';
 import ProjectSection from '../components/project-section';
+import PublicationSection from '../components/publication-section';
 
-function ResearchPage({ data }) {
+function PublicationPage({ data }) {
   const metaData = data.site.siteMetadata;
   const { author, about, language } = metaData;
-  const { timestamps, projects } = about;
+  const { timestamps, projects, publications } = about;
   return (
     <Layout>
-      <Seo title="SJ Chae - Research" /> 
-      <TimeStampSection timestamps={timestamps} />
-      <ProjectSection projects={projects} />
+      <Seo title="SJ Chae - Publications" /> 
+      <PublicationSection publication={publications} />
     </Layout>
   );
 }

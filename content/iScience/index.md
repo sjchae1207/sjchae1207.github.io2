@@ -10,6 +10,6 @@ categories: News Papers
 The manuscript, Spatially coordinated collective phosphorylation filters spatiotemporal noises for precise circadian timekeeping
 is accepted by iScience. 
 
-You can find it in [bioRxiv](https://www.biorxiv.org/content/10.1101/2022.10.27.513792v2), too.
+You can find it in [here](https://www.sciencedirect.com/science/article/pii/S2589004223006314).
 
 
