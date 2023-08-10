@@ -51,7 +51,7 @@ module.exports = {
       {
         description_before_link: 'Please find my CV',
         description_after_link: '',
-        link: 'https://drive.google.com/file/d/1DCtA_sLgH04lnNDCi87vBPBMAq4tem2b/view?usp=share_link',
+        link: 'https://drive.google.com/file/d/115e1vD9zNMvxMVAyUhPqPOkb-SxiLDiE/view?usp=sharing',
         linkText: 'here.',
       },
 
@@ -77,7 +77,7 @@ module.exports = {
       // ========================================================
       {
         date: '2017.03~',
-        activity: 'Ph.D (on going) in Mathematical biology, KAIST',
+        activity: 'Ph.D Candidate in Mathematical biology, KAIST',
         // links: {
         //    post: ,
         // },
@@ -149,6 +149,21 @@ module.exports = {
         //   github: 'https://github.com/Mathbiomed/Collective_phospho_circadian',
 
         // },
+      },
+      
+    ],
+    publications: [
+      // =====        [Project Sample and Structure]        =====
+      // ===== 🚫 Don't erase this sample (여기 지우지 마세요!)  =====
+      {
+        title: '',
+        description: '',
+        techStack: ['', ''],
+        thumbnailUrl: '',
+        links: {
+          post: '',
+          github: '',
+        },
       },
     ],
   },

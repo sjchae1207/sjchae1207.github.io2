@@ -22,54 +22,60 @@ function ResearchPage({ data }) {
 export default ResearchPage;
 
 export const pageQuery = graphql`
-  query {
-    site {
-      siteMetadata {
-        title
-        description
-        language
-        author {
-          name
-          bio {
-            role
-            description
-            thumbnail
-          }
-          social {
+query {
+  site {
+    siteMetadata {
+      title
+      description
+      language
+      author {
+        name
+        bio {
+          role
+          description
+          thumbnail
+        }
+        social {
+          github
+          linkedIn
+          email
+        }
+      }
+
+      about {
+        intros {
+          description_before_link
+          description_after_link
+          link
+          linkText
+        }
+        timestamps {
+          date
+          activity
+          links {
+            post
             github
-            linkedIn
-            email
+            demo
+            googlePlay
+            appStore
           }
         }
 
-        about {
-          timestamps {
-            date
-            activity
-            links {
-              post
-              github
-              demo
-              googlePlay
-              appStore
-            }
-          }
-
-          projects {
-            title
-            description
-            techStack
-            thumbnailUrl
-            links {
-              post
-              github
-              demo
-              googlePlay
-              appStore
-            }
+        projects {
+          title
+          description
+          techStack
+          thumbnailUrl
+          links {
+            post
+            github
+            demo
+            googlePlay
+            appStore
           }
         }
       }
     }
   }
+}
 `;

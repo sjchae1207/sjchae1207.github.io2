@@ -4,7 +4,7 @@ import IconButtonBar from '../icon-button-bar';
 import Image from '../image';
 import './style.scss';
 
-function PublicationsSection({ publications }) {
+function PublicationSection({ publications }) {
   if (!publications || publications.length < 2) return null;
   return (
     <div className="Publication-page">
@@ -39,4 +39,4 @@ function PublicationsSection({ publications }) {
   );
 }
 
-export default PublicationsPage;
+export default PublicationSection;
