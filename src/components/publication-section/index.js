@@ -7,7 +7,7 @@ import './style.scss';
 function PublicationSection({ publications }) {
   if (!publications || publications.length < 2) return null;
   return (
-    <div className="Publication-page">
+    <div className="Publication-section">
       <SectionHeader title="Publications" />
       {publications.map((publication, index) =>
         index === 0 ? null : (
@@ -18,6 +18,8 @@ function PublicationSection({ publications }) {
                 <IconButtonBar links={publication.links} style={{ color: '#a8a8a8', fontSize: 24 }} />
               )}
             </div>
+            <div className="date">{publication.date}</div>
+            <div className="authors">{publication.authors}</div>
             <div className="body">
               <Image className="thumbnail" src={publication.thumbnailUrl} />
 

@@ -4,16 +4,17 @@ import Layout from '../layout';
 import Seo from '../components/seo';
 import Bio from '../components/bio';
 import TimeStampSection from '../components/timestamp-section';
+import PublicationSection from '../components/publication-section';
 import ProjectSection from '../components/project-section';
 
 function ResearchPage({ data }) {
   const metaData = data.site.siteMetadata;
   const { author, about, language } = metaData;
-  const { timestamps, projects } = about;
+  const { timestamps, projects, publications } = about;
   return (
     <Layout>
       <Seo title="SJ Chae - Research" /> 
-      <TimeStampSection timestamps={timestamps} />
+      <PublicationSection publications={publications} />
       <ProjectSection projects={projects} />
     </Layout>
   );
@@ -58,6 +59,17 @@ query {
             demo
             googlePlay
             appStore
+          }
+        }
+        publications {
+          date
+          title
+          authors
+          techStack
+          thumbnailUrl
+          links {
+            post
+            github
           }
         }
 

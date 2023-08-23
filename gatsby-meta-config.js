@@ -76,7 +76,7 @@ module.exports = {
       // ========================================================
       // ========================================================
       {
-        date: '2017.03~',
+        date: '2017.03 ~ 2024.02',
         activity: 'Ph.D Candidate in Mathematical biology, KAIST',
         // links: {
         //    post: ,
@@ -89,7 +89,7 @@ module.exports = {
       },
       
       {
-        date: '2011.01~2013.02',
+        date: '2011.01 ~ 2013.02',
         activity: 'Hansung Science high school',
       },
      
@@ -131,7 +131,7 @@ module.exports = {
       {
         title: 'Optimizing Immunotherapy strategy against tumor using NK cells',
         description: 'Collaborative study with biologists in KRIBB to understand NK killing mechanism and improve tumor killing capacity',
-        techStack: ['Data Analysis', 'MATLAB'],
+        techStack: ['Data Analysis', 'MATLAB','R'],
         // thumbnailUrl: '',
         // links: {
         //   post: 'https://www.biorxiv.org/content/10.1101/2022.10.27.513792v2',
@@ -140,9 +140,9 @@ module.exports = {
         // },
       },
       {
-        title: 'Detecting causality ',
+        title: 'Detecting causality from biological time sereis',
         description: 'Studied how spatially coordinated collective phosphorylation filters spatiotemporal noises for precise circadian timekeeping',
-        techStack: ['MATLAB'],
+        techStack: ['MATLAB','R'],
         // thumbnailUrl: '',
         // links: {
         //   post: 'https://www.biorxiv.org/content/10.1101/2022.10.27.513792v2',
@@ -156,15 +156,17 @@ module.exports = {
       // =====        [Project Sample and Structure]        =====
       // ===== 🚫 Don't erase this sample (여기 지우지 마세요!)  =====
       {
-        title: '',
-        description: '',
-        techStack: ['', ''],
+        date: '2023',
+        title: 'Spatially coordinated collective phosphorylation filters spatiotemporal noises for precise circadian timekeeping',
+        authors: 'Seok Joo Chae, Dae Wook Kim, Seunggyu Lee, and Jae Kyoung Kim',
+        techStack: ['MATLAB', 'Netlogo'],
         thumbnailUrl: '',
         links: {
-          post: '',
+          post: 'https://www.cell.com/iscience/fulltext/S2589-0042(23)00631-4',
           github: '',
         },
       },
+    
     ],
   },
 };
